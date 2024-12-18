@@ -6,7 +6,7 @@ export function SignupPage() {
     email: '',
     password: '',
     confirmPassword: '',
-  });
+  }); 
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
